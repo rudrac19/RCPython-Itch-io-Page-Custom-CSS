@@ -1,0 +1,39 @@
+<style id="custom_css" type="text/css">.user_profile{}
+.game_cell{
+    background-color: #ffd54d;
+    padding: 10px;
+    border:6px #ffd54d solid;
+    border-radius: 5%;
+    position: relative;
+    display: inline-block;
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+}
+.game_cell:hover{
+    box-shadow: 0px 0px 100px 5px #edd37b;
+    z-index: 2;
+    transition: all 200ms ease-in;
+    transform: scale(1.02) rotate(-0.3deg);
+}
+
+.custom-profile-text
+{
+    padding: 20px;
+    border: 10px #7986A7 solid;
+    border-radius: 100%;
+    background-color: #6B95B2;
+    font-weight: bold;
+    font-size:30px;
+    transition: all 200ms ease-in;
+    transform: scale(1);  
+    animation: boxAnim 5s infinite;
+    animation-timing-function: ease;
+    box-shadow: 0px 0px 100px 0px #2E4774;
+}
+.text_header{
+    z-index: 50;
+    font-family:Luminari,Impact,Snell Roundhand, cursive;
+    font-size: 50px;
+    box-shadow: 0px 0px 30px 0px #2E4774;
+}
+</style>
